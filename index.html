@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html lang='pt-br'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+		<title>Traning JavaScript build Snake</title>
+		<link rel="stylesheet" type="text/css" href="snake.css"/>
+	</head>
+	<body>
+		<!--Game Principal-->
+		<div id="containerPrincipal"></div>
+
+		<!--Contém a pontuação -->
+		<div id="scoreContainer">
+			<div class="placar">Pontos: <span id="pontos">0</span></div>
+			<div class="placar">Distância: <span id="distanciaPercorrida">0</span></div>
+		</div>
+
+		<!--Controles-->
+		<div id="controlesDeTela">
+		<button id="BotaoEsquerdo"></button>
+		<div>
+			<button id="BotaoCima"></button>
+			<button id="BotaoBaixo"></button>
+		</div>
+		<button id="BotaoDireito"></button>
+		</div>
+	</body>
+
+	<!--Contém a Lógica do Jogo-->
+	<script src="snake.js"></script>
+</html>

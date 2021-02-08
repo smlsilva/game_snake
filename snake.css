@@ -1,0 +1,113 @@
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#containerPrincipal {
+
+    width: 40vw;
+    height: 40vw;
+    margin: 1vw auto;
+    background-color: white;
+    border: solid 10px black;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.6);    
+}
+
+.pixelDeTabuleiro { 
+    width: 1vw;
+    height: 1vw;
+    border-radius: 15px;
+    float: left;
+}
+
+.snakeBodyPixel {
+    background-color: black;
+    box-shadow: 0 0 10px red;
+}
+
+.maca{
+    background-color:red;
+}
+
+#scoreContainer {
+    width: 40vw;
+    display: inline-flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.placar {
+    display: inline-block;    
+    border: solid 3px black;
+    background-color: slategrey;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#controlesDeTela {
+    display: none;
+}
+
+@media only screen and (max-width: 748px){
+    #gameContainer{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .pixelDeTabuleiro {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    #scoreContainer {
+        width: 80vw;
+    }
+
+    #controlesDeTela {
+        width: 80vw;
+        margin: 5vw auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #controlesDeTela > div{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    #controlesDeTela button {
+        background-color: transparent;
+        height: 20vw;
+        width: 20vw;
+        font-size: 10vw;
+        border: none;
+    }
+
+    #controlesDeTela button:focus{
+        outline: none;
+    }
+
+    #controlesDeTela button:active {
+        background-color: slategray;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
