@@ -1,9 +1,13 @@
-# TECNOLOGIAS UTILIZADAS:
-   1 - HTML
-   2 - CSS
-   3 - JS
+# 📖 REQUISITO
+   <p>TER A FERRAMENTA ZIP NO COMPUTADOR</p>
 
-# OBJETIVO
-   - Para fins de Estudo!
+# 🎮 PASSOS PARA JOGAR
+   <ol>
+      <li>DESCOMPACTE COM A FERRAMENTA ZIP</li>
+      <li>HABILITAR O ARQUIVO index.html PARA ABRIR NO NAVEGADOR</li>
+      <li>JOGAR UTILIZANDO AS SETAS DO TECLADO</li>
+   </ol>
 
-* OBS.: Caso tenha gostado, deixe uma estrela para fortalecer.
+# CONTRIBUIÇÃO
+   <p>CASO QUEIRA CONTRIBUIR COM O PROJETO, PODE ESTÁ ENVIANDO UM <b>PULL REQUEST</b> com <br>
+   o interesse para participar e qual a linguagem que está desenvolvendo atualmente.
